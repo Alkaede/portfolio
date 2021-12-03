@@ -1,0 +1,19 @@
+$breakpoint-tablet: 1024px;
+
+#profile-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 20rem;
+  font-size: 1.5rem;
+
+  .description {
+    max-width: fit-content;
+  }
+
+  // tablet display
+  @media (max-width: $breakpoint-tablet) {
+    font-size: 2rem;
+    margin: 12rem 1.5rem;
+  }
+}
